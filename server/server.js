@@ -7,7 +7,7 @@ import "dotenv/config";
 import connectDB from "./config/db.js";  
 import authRouter from "./routes/authRoutes.js"; 
 import analysisRouter from "./routes/analysisRoutes.js";
-import { startRankTrackingCron } from "./cron/rankTrackingCron.js";
+//import { startRankTrackingCron } from "./cron/rankTrackingCron.js";
 // Connect to MongoDB
 connectDB();
 
