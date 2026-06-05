@@ -21,6 +21,6 @@ app.use("/api/auth", authRouter);
 app.use("/api/rank", rankRouter);
 app.use('/api/analysis', analysisRouter);
 
-startRankTrackingCron()
+//startRankTrackingCron()
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
