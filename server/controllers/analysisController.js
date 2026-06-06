@@ -1,5 +1,5 @@
 
-import Analysis from "../models/analysis.js";
+import Analysis from "../models/Analysis.js";
 import { analyzeSeoData } from "../services/geminiService.js";
 import { scrapeUrl } from "../services/scraperService.js";
 
